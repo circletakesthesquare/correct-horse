@@ -101,7 +101,6 @@ public class Application {
 			wordList = Files.readAllLines(Paths.get("diceware.wordlist.txt"));
 		} catch (IOException e) {
 			System.out.println("Unable to read file.");
-			;
 		}
 
 		String diceNumber;
